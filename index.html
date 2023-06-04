@@ -7,8 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
 
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -28,13 +32,13 @@
         <label class="form__element__name" for="year">Year</label>
         <input class="form__element__input" id="year" type="number" placeholder="YYYY">
       </div>
+
+      <button class="form__btn"><img class="form__icon" src="./assets/images/icon-arrow.svg" alt="Icon"></button>
     </form>
 
-    <div class="result">
-      <h2 class="result__years"><span class="resault__number">--</span> years</h2>
-      <h2 class="result__months"><span class="resault__number">--</span> months</h2>
-      <h2 class="result__days"><span class="resault__number">--</span> days</h2>
-    </div>
+    <h2 class="result years"><span class="number">--</span> years</h2>
+    <h2 class="result months"><span class="number">--</span> months<h2>
+    <h2 class="result days"><span class="number">--</span> days</h2>
   </main>
 </body>
 
